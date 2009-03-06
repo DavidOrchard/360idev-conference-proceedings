@@ -1,0 +1,448 @@
+<html>
+<head>
+<title>360iDev talks</title>
+</head>
+<body>
+<p>4 tracks, Biz, Game Dev, Hands on, Non Game App Dev.</p>
+<p>Particularly good Biz presos</p>
+<ul>
+<li><a href="Biz/Azeem Ansar - 25,000,000 Downloads - Data-Driven Insights into iPhone Application Distribution/Pinch Media - 360iDev - AppStore Secrets.pdf">Pinch Media 30 Mill app downloads</a> and <a href="#pinchmedia">my notes</a>
+<li><a href="Biz/Scott Michaels - Marketing Apps/Marketing iPhone Apps 2.pdf">Scott Michaels Atimi Marketing iPhone Apps</a> and <a href="#marketingtips">my notes</a>
+<li><a href="Biz/Peter Farago - Dead App Walking/Flurry_DeadAppWalking_with_DigitalChocolate&Loopt">Dead App Working</a> Includes interesting discussion of Flurry analytics
+</ul>
+<p>Good Tech talks</p>
+<ul>
+<li>Great talk on <a href="Jeff LaMarche - Using SQLite/SQLPO Presentation.pdf
+">SQLLitePersistentObjects</a>
+<li>Danton Chin and <a href="#dantonchin">my notes</a>
+<li><a href="Non Game App Dev/Tim Burks - Deep Geek Diving into the iPhone OS and Framework/deepgeekdiving-090302160429-phpapp02.pdf
+">Tim Burks, jailbreaking and possibilities</a> and <a href="#timburks">my notes</a>
+<li>Chuck Smith Intro to Itunes connect so so but a couple good points: Follow Apple docs, not web site.  Follow the document at the bottom.  Description for example submission says 700 words, but actually 4000
+<li>Chris Hughes had no notes on jailbreaking, here's <a href="#chrishughes">my notes</a>
+<li>Jay Freeman had no notes on cydia jailbreak store, here's <a href="#saurik">my notes</a>
+
+</ul>
+My totally rough notes:
+<pre>
+Mike Lee:
+Loves doing nil chaining, send a nil to a nil it returns nil.  No constant check blocks.
+Method Swizzling: messages instead of functions, level of indirection.  Objective C treats methods as objects.  Can swap out methods for another.  Great for debugging.  Found a bug in one of apples controller objects.  Swapped in their own impl and showed it to Apple for submitting bug.  Set breakpoints inside impl of framework by subclassing then swizzle.  
+Thinks $2.99 is a good price.  Another idea is to do a free and then do a different one and market to the free saying check out our new app.
+Figure out how to get $10K.  Hard to get 5000 people to buy for $2.99, could be harder to get 15000 people to buy for $.99
+Mobclicks, competes with adMob, analytics touted.  
+
+Owen Goss: Creation of an iPhone game (dapple) Provides 
+-----------------
+IndieGamer forums for contract help
+Loading system: Each mode loads it's own resources, textures, etc.  minimal footprint when not in game mode.
+     easier to track memory leaks.  Couldn't animate in the middle of the screens
+Configure: Custom openGL UI framework.  Very slick looking Options: sliders, tick boxes, fonts, button
+  Always take longer than you think.
+Save game system: The act of saving the users game makes them feel like the game belongs to them.
+Sound: SoundEngine had lots of bugs, his fixes are on Dev Forums as OTrain13.  Lots and lots of crashes.  Use AVAudio player
+       Handles playing iPod music during the game.
+
+Rendering: uses two different blending modes, some problem with alpha?
+
+Fonts: get licensing early
+
+Weekly: play, bug fixes, memory leak tests, perf tests.
+
+Testing lessons learned:
+Build Number, and make sure testers use build #
+Symbol files.  Keep these for each build.  These are the DSYM files. 
+Crash logs.  
+symbolicatecrash is a big one.  Use Asserts.  
+
+http://www.ispeeddial.com/how-to-find-the-crash-log-for-an-iphone-application/
+http://www.anoshkin.net/blog/2008/09/09/iphone-crash-logs/
+http://www.furbo.org/2008/08/08/symbolicatifination/
+
+PR/Marketing: fingerpaint
+kotaku
+
+Measuring app
+alpha TapMetrics 
+Pinch Media
+Heartbeat, monthly fee
+Flurry,
+
+You've built the app, now what?
+--------------
+Diversify your offerings.  Happy customer base will drive to other products, can cross-promote.
+All pages created on the fly by SQL database.  
+
+</pre>
+<a name="marketingtips">
+<pre>
+Tips for marketing
+---------
+Ask for Enhanced page like Freeverse, or x-plane
+If somebody asks for review, have material ready.
+You can update icon, ie (new), or price
+
+App review sites, well known blogs, specialist blogs
+Targeted Users: testimonials, word of mouth, trade publications, trade sites
+Apple is going back to not allowing posts without purchase
+Couple hundred bucks to hire thousand devs to review sites.
+Advertise your app: MediaLets, Admob, greystripe
+unlock features, like wallpaper
+with your peers/frenemies, cross promotions.
+
+Subscriptions: Can allow subscriptions if you paid on the web site, ie real time stock quotes
+Apple does not like you taking away 30%.  Don't change that value.  If your profile existed before that day, then the app can extend.  
+Data delivered from a web service can be subscription based, but not data on the phone.  
+If I'm purchasing credits outside the app, and spending credits inside the app, that's ok.
+Credit card payment is now totally allowed, do the merch app right in the phone through the app not the web
+Can do a limited version of a feature, ie get 2 movie reviews and have to pay to get more.
+
+App sniper checks price trending 
+EA apps are $10, card games are $2.99
+Rolando, $9, $7, $5
+Pricing: MLB did at Bat 2008.  Promote AtBat 2009.  Then turn at bat 2008 to free at bat lite
+
+Underserved market: Women, Hispanic/Latino, Children
+
+Contact Apple evangelist via email from old presentations to find out their vertical.
+Facebook developer network offers a cocoa framework for facebook connect
+Analytics?  
+Do Send to a friend from the server side
+</pre>
+
+<A NAME="pinchmedia">
+<pre>
+PinchMedia
+---------
+Paid vs free.  
+#1 # of times user will run a free app
+ on average, a free app runs a max of 10 runs
+
+#2 how many more user will a free app
+for total uniques 7.5 to 1
+total # of imes: 6.6 to 1
+total time spent, 3.9 to 1
+
+#3 call it 12 times, then * 7.5 times for total uniques = 90 sessions/user
+Instead of 1 paid sale for $.7 the developer has 90 sessions.
+To earn $.7 in 90 sessions, you need $7.78 per thousand runs??  
+If you show 1 ad pers session, thats $7.78 CPM
+Very difficult
+ideal strategy, install analytics, understand your audience.
+
+Some apps benefit from network affects, get more than 7.5x
+Some apps are very sticky
+
+Top 10% decile does total 40 runs
+CPM wise:
+Top 10% is CPM <$2.
+then $7, down to $35 CPM
+Unless there's something inherent about the app that screans free, start by selling it
+Only release an ad-supported version when you have data strongly indicating success.
+azeem@pinchmedia.com
+demo.pinchmedia.com
+developer.pinchmedia.com
+Pinchmedia qualifies for general TOS
+
+</pre>
+<a name="timburks">
+<pre>
+Jailbreaking and nu
+-----------
+Nu is a new language, nush (nu shell), nuke (nu make)
+"pwning" disables signature checks in the iPhone bootloader
+a custom "IPSW" iphone software image disables kernal restrictions on user processes.
+code for pwning on github
+Cydia and installer are the new apps on the iphone after jailbreaking.  These apps are installed in a different place and won't
+about 25% of audience had jailbroken phones
+out of the box every iPhone's root password is 'alpine", change
+fav apps open ssh locate, 
+
+ssh -l root
+apt-get install vim
+apt-get install gdb
+apt-get install rsync
+
+rsync -avz -e ssh /me@my-machine:/myiphone
+sandboxtemplate.sb
+
+(deny file-write *
+   (regex "^private/var/mobile/Applications/*$"))
+(deny file-read 
+
+AddressBook
+( Alow file-write*
+  (regex "/private/var/mobile/Library/AddressBook(/|$)"))
+
+find .-name "*.db"
+Notes/notes.db, sms.db, voicemail.db
+
+
+find . - name "*.sqlitedb"
+sqlite3 ./private/var/mobile/Library/CallHistory/call_history.db
+  >dump
+
+finding things: find grep, nm (symbol table), otool, grep
+
+find .-exec grep Basttery {} \;
+
+nm CoreTelephony | grep Battery
+libe15cr T _ GETBattery 
+function
+
+display load commands with otool -l <file>
+otool disassemble CTGETBatteryCapactiy
+
+gcc -S stop after the compliation stage
+
+But gcc does't work on arm out of the box
+notice that xcode uses gcc-r.0
+
+how about ggc-r.0 sample.c - S -arch armv6 -o
+
+ARM system developer's guide, sloss, symes, write and rayfiled
+
+Dynamically Load functions with libdl
+We want to call the CTGetBatteryCapacity
+#include <dlfcn.h>
+
+[[NSBundle bundlewithPath:"@/...CorTelephony.framework] load];
+
+int (*myGetBatteryCapacitsy) () = dlsymhandle, "CTGetBatteryCapacity"); // OR (RTLD_DEAFULT AS FIRST PARAM)
+
+// CALL IMPORT FUNCTION
+int capacity = myGetBatteryCapacity
+
+otool -o CoreLocation
+
+(returns Objective C data, not C data so CoreLocation doesn't have header
+partway down, name CLLocation
+ClassDump generates header files
+name speed
+types d8@O:4     (a double that takes no args)
+
+cd /usr/include/objc/
+grep IMP *
+
+(method pointers)
+objc.h:typedef id (*IMP) (id, SEL, ...);
+
+Objective C is now open-source
+
+static analyzer clang
+
+launchd
+
+Turn off shine on icon for example
+in Plist
+<integer>1</integer>
+Booleans are actually
+<true/>
+
+openradar
+http://openradar.appspot.com/page/1
+in timburks/openradar
+
+myiphone facebook app
+search for apps by name
+put customized iphone on your profile
+Show jailbroke apps?  no, 
+Can't include an image of an iphone according to app store
+tcpdump and nu can get the apps on the phone
+
+(colin donnell) Followup app 
+PR Mac, got 20 sales immediately for $17.  
+Iprong mag gave review
+Use google analytics
+mentioned on theappleblog.com, got some hits
+Things is a GTD app, productivity
+estimate 2 months.
+Fast list work: Draw rounded image, shrink image, custom string writers, fade effect on image to (-) when edit, Toolbar doesn't move/slide
+
+</pre>
+<a name="chrishughes">
+<pre>
+Jailbreaking by Chris Hughes
+-----------------
+An example of undocumented API is the touched to face by google. 
+classdump tool
+myIP is app on app store
+create private network
+ssh root@ip
+sv setting put IP on the status bar
+killall SpringBoard
+
+Erica Sadun awesome author, iphone book.
+Jay "Saurik" Freeman wrote Cydia and Veency
+chicken in the vnc
+Pathfinder for emacs
+lunch control after installing chicken 
+app-get top
+pydumper.py
+Pick the path developer sdk. 
+ported classdump, then ported it, ran classdump
+check zip file on blog after talk.
+proximitysensorchanged 
+
+Example:
+@interface ProxApp 
+- (void) proximityStateChange(Bool)state{
+}
+
+-(void)applicationDidFinishLaunching
+
+ [[NSNotificationCenter default
+in main.c
+argc, arv, @"ProxApp", @"ProxAppNewAppDelegate"):
+
+Boss Prefs control eg, edge, wifie, bloototh, ssh, imap account, gmail, 
+Apple kill switch can be turned off 
+
+NotificationMatcher Erica's utility
+http://ericasadun.com/ftp/EricaUtilities/
+http://ericasadun.com/ftp/
+
+Apple Stupidness
+Jailbreak
+ - cat & mouse
+ - new Macbooks
+ - 10.5.6 Kext Upgrades (search on google) or Put a hub in.
+
+#iiphone-dev #hackentosh on irc.0sx86.hu
+- iphone cookbook Ericka sadaun
+
+pwnageTool doesn't fudge with baseband stuff
+Use expert mode
+Turn off activate the phone with a regular phone connected 
+baseband is gsm radio
+Choose default mem size
+
+THE installer often not (ripdev guys, all russians)
+
+Two recovery modes DFU, Regular
+
+cd ~/Library/itunes/Device Support/
+rm the file or 
+
+
+AppEngine on iPhone
+------------------
+touchengine is on google code
+
+GET request options
+  short  : will return the relative URL for each enttity
+  limit
+   aferKey
+  orderBy
+  orderBy%20desc 
+
+bignerdranch.com
+jonathansaggau.com
+@jonmarimba
+http://360idev.mobclix.com/
+
+
+AdMob
+------
+Ipod Touch 40% of traffic, 80% of ipod touch owners under 24
+February, 87% of traffic 2.2 sdk
+admob/metrics
+
+persistence for mortals
+-------------------
+yo dawg i herd you liek data joke
+github.com/thillerson/
+fmdb thin wrapper around sqlit
+fmdb-migration-manager - Rails-style migrations using fmdb
+
+Aptiva's Active recrod
+github.com/aptiva/activerecord
+
+to update sqllite db
+sqlite3 groceries.db
+sqlite>.schema
+
+Have to copy database from a bundle into /documents directory because bundle is signed so read only
+
+sample code
+loadData{ if (sqlite3_open([path UTFI8String], &db) == SQLITE_OK)
+
+const char * sql = "SELECT pk, title, position FROM quick_list ORDER BY position";
+if (sqlite3_prepare_v2(db, sql, -1, &find_all_statement, NULL) != SQLITE_OK ){
+NSAssert1(0, @"Failed to prepare");
+pk = sqlite3_column_int(find_all_statement, 0);
+
+fmdb looks a lot easier
+
+Can look at db by Applications Path Finder
+Library/Application Support/iPhone Simulator/User/Applications/..
+void) migrate
+{
+   NS
+
+CreateGrocerList
+(void) up {
+	[self createTable:@"groceries" withColumns:[NSArray arrayWithObjects: 
+	[FmdbMigrationColumn column withColumnName:@"id" columnType:@"INTEGER PRIMARY KEY AUTOINCREMENTA"];
+>>>> Interesting points
+Primary KEY always called id in the database
+Can't call a property "id", so he uses pk
+<<<<<<
+
+Drag from path finder view ino command line
+
+</pre>
+<a name="dantonchin">
+<pre>
+Danton Chin maximizing memory
+---------------------
+copy, alloc, retain ref count + 1
+
+release
+autorelease, ref count -1 at some point in the future
+
+form +className are not own by you
+
+be lazy about allocating, but not lazy about releasing, use release instead of autorelease
+can create autorelease pool, stacked
+new are added to top, auto released objects add to the top auto release pool
+drained/dealoced pools are removed from the stack
+
+What tools can we use?
+Instruments and Shark
+Clang Static Analyzer
+DTrace, new 
+Create Custom Trace Document/Template:
+Activity Monitor
+
+clang
+scanbuild command 
+-k keep going if it fails
+-v, -v -v, -v -v -v 
+
+put an xclode clean
+"xcodebuild clean
+scan-build -k -v xcodebuild 
+
+http://vafer.org/blog/200812808205
+mobile orchard
+many more resources
+
+</pre>
+<a name="saurik">
+<pre>
+jailbroken apps
+winterboard
+mcleaner, tether
+snapture
+modem
+iblacklist
+cyntact
+Even has facebook connect
+
+build hardware to do flashes on phone
+record video
+
+2 milion phones
+350 000 unique daily usages of cydia
+1 million weekly uniques 
+</pre>
