@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TransformAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TransformAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		312EEEB30F5B8A6E00E38C2F /* WalkingLady.mhp in Resources */ = {isa = PBXBuildFile; fileRef = 312EEEAF0F5B8A6E00E38C2F /* WalkingLady.mhp */; };
+		312EEEB40F5B8A6E00E38C2F /* ArialBlack.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 312EEEB00F5B8A6E00E38C2F /* ArialBlack.fnt */; };
+		312EEEB50F5B8A6E00E38C2F /* Clown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 312EEEB10F5B8A6E00E38C2F /* Clown.jpg */; };
+		312EEEB60F5B8A6E00E38C2F /* TwirlShape.shp in Resources */ = {isa = PBXBuildFile; fileRef = 312EEEB20F5B8A6E00E38C2F /* TwirlShape.shp */; };
+		3138DA030F5D859D00BD7F1E /* TransformToolbar.mhp in Resources */ = {isa = PBXBuildFile; fileRef = 3138DA020F5D859D00BD7F1E /* TransformToolbar.mhp */; };
+		D50F42A70EAB36540067041D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50F42A60EAB36540067041D /* QuartzCore.framework */; };
+		D58A08300EDDC07E004E88A4 /* CommonTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A082F0EDDC07E004E88A4 /* CommonTransform.cpp */; };
+		D58A08A80EDDC0BC004E88A4 /* jcomapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08680EDDC0BC004E88A4 /* jcomapi.cpp */; };
+		D58A08A90EDDC0BC004E88A4 /* jdapimin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08690EDDC0BC004E88A4 /* jdapimin.cpp */; };
+		D58A08AA0EDDC0BC004E88A4 /* jdapistd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A086A0EDDC0BC004E88A4 /* jdapistd.cpp */; };
+		D58A08AB0EDDC0BC004E88A4 /* jdatasrc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A086B0EDDC0BC004E88A4 /* jdatasrc.cpp */; };
+		D58A08AC0EDDC0BC004E88A4 /* jdcoefct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A086C0EDDC0BC004E88A4 /* jdcoefct.cpp */; };
+		D58A08AD0EDDC0BC004E88A4 /* jdcolor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A086D0EDDC0BC004E88A4 /* jdcolor.cpp */; };
+		D58A08AE0EDDC0BC004E88A4 /* jddctmgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A086E0EDDC0BC004E88A4 /* jddctmgr.cpp */; };
+		D58A08AF0EDDC0BC004E88A4 /* jdhuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A086F0EDDC0BC004E88A4 /* jdhuff.cpp */; };
+		D58A08B00EDDC0BC004E88A4 /* jdinput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08700EDDC0BC004E88A4 /* jdinput.cpp */; };
+		D58A08B10EDDC0BC004E88A4 /* jdmainct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08710EDDC0BC004E88A4 /* jdmainct.cpp */; };
+		D58A08B20EDDC0BC004E88A4 /* jdmarker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08720EDDC0BC004E88A4 /* jdmarker.cpp */; };
+		D58A08B30EDDC0BC004E88A4 /* jdmaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08730EDDC0BC004E88A4 /* jdmaster.cpp */; };
+		D58A08B40EDDC0BC004E88A4 /* jdmerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08740EDDC0BC004E88A4 /* jdmerge.cpp */; };
+		D58A08B50EDDC0BC004E88A4 /* jdphuff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08750EDDC0BC004E88A4 /* jdphuff.cpp */; };
+		D58A08B60EDDC0BC004E88A4 /* jdpostct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08760EDDC0BC004E88A4 /* jdpostct.cpp */; };
+		D58A08B70EDDC0BC004E88A4 /* jdsample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08770EDDC0BC004E88A4 /* jdsample.cpp */; };
+		D58A08B80EDDC0BC004E88A4 /* jerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08780EDDC0BC004E88A4 /* jerror.cpp */; };
+		D58A08B90EDDC0BC004E88A4 /* jfdctint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08790EDDC0BC004E88A4 /* jfdctint.cpp */; };
+		D58A08BA0EDDC0BC004E88A4 /* jidctint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A087A0EDDC0BC004E88A4 /* jidctint.cpp */; };
+		D58A08BB0EDDC0BC004E88A4 /* jidctfst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A087B0EDDC0BC004E88A4 /* jidctfst.cpp */; };
+		D58A08BC0EDDC0BC004E88A4 /* jidctred.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A087C0EDDC0BC004E88A4 /* jidctred.cpp */; };
+		D58A08BD0EDDC0BC004E88A4 /* jmemmgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A087D0EDDC0BC004E88A4 /* jmemmgr.cpp */; };
+		D58A08BE0EDDC0BC004E88A4 /* jmemnobs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A087E0EDDC0BC004E88A4 /* jmemnobs.cpp */; };
+		D58A08BF0EDDC0BC004E88A4 /* JPEG_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A087F0EDDC0BC004E88A4 /* JPEG_dec.cpp */; };
+		D58A08C00EDDC0BC004E88A4 /* jquant1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08800EDDC0BC004E88A4 /* jquant1.cpp */; };
+		D58A08C10EDDC0BC004E88A4 /* jquant2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08810EDDC0BC004E88A4 /* jquant2.cpp */; };
+		D58A08C20EDDC0BC004E88A4 /* jutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08820EDDC0BC004E88A4 /* jutils.cpp */; };
+		D58A08C30EDDC0BC004E88A4 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08840EDDC0BC004E88A4 /* png.c */; };
+		D58A08C40EDDC0BC004E88A4 /* PNG_dec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08850EDDC0BC004E88A4 /* PNG_dec.cpp */; };
+		D58A08C50EDDC0BC004E88A4 /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08860EDDC0BC004E88A4 /* pngerror.c */; };
+		D58A08C60EDDC0BC004E88A4 /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08870EDDC0BC004E88A4 /* pngget.c */; };
+		D58A08C70EDDC0BC004E88A4 /* pngmem.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08880EDDC0BC004E88A4 /* pngmem.c */; };
+		D58A08C80EDDC0BC004E88A4 /* pngpread.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08890EDDC0BC004E88A4 /* pngpread.c */; };
+		D58A08C90EDDC0BC004E88A4 /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A088A0EDDC0BC004E88A4 /* pngread.c */; };
+		D58A08CA0EDDC0BC004E88A4 /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A088B0EDDC0BC004E88A4 /* pngrio.c */; };
+		D58A08CB0EDDC0BC004E88A4 /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A088C0EDDC0BC004E88A4 /* pngrtran.c */; };
+		D58A08CC0EDDC0BC004E88A4 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A088D0EDDC0BC004E88A4 /* pngrutil.c */; };
+		D58A08CD0EDDC0BC004E88A4 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A088E0EDDC0BC004E88A4 /* pngset.c */; };
+		D58A08CE0EDDC0BC004E88A4 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A088F0EDDC0BC004E88A4 /* pngtrans.c */; };
+		D58A08CF0EDDC0BC004E88A4 /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08900EDDC0BC004E88A4 /* pngwio.c */; };
+		D58A08D00EDDC0BC004E88A4 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08910EDDC0BC004E88A4 /* pngwrite.c */; };
+		D58A08D10EDDC0BC004E88A4 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08920EDDC0BC004E88A4 /* pngwtran.c */; };
+		D58A08D20EDDC0BC004E88A4 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08930EDDC0BC004E88A4 /* pngwutil.c */; };
+		D58A08D30EDDC0BC004E88A4 /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08950EDDC0BC004E88A4 /* adler32.c */; };
+		D58A08D40EDDC0BC004E88A4 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08960EDDC0BC004E88A4 /* compress.c */; };
+		D58A08D50EDDC0BC004E88A4 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08970EDDC0BC004E88A4 /* crc32.c */; };
+		D58A08D60EDDC0BC004E88A4 /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08980EDDC0BC004E88A4 /* deflate.c */; };
+		D58A08D70EDDC0BC004E88A4 /* gzio.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08990EDDC0BC004E88A4 /* gzio.c */; };
+		D58A08D80EDDC0BC004E88A4 /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A089A0EDDC0BC004E88A4 /* infback.c */; };
+		D58A08D90EDDC0BC004E88A4 /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A089B0EDDC0BC004E88A4 /* inffast.c */; };
+		D58A08DA0EDDC0BC004E88A4 /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A089C0EDDC0BC004E88A4 /* inflate.c */; };
+		D58A08DB0EDDC0BC004E88A4 /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A089D0EDDC0BC004E88A4 /* inftrees.c */; };
+		D58A08DC0EDDC0BC004E88A4 /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A089E0EDDC0BC004E88A4 /* trees.c */; };
+		D58A08DD0EDDC0BC004E88A4 /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A089F0EDDC0BC004E88A4 /* uncompr.c */; };
+		D58A08DE0EDDC0BC004E88A4 /* zlib_globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08A00EDDC0BC004E88A4 /* zlib_globals.cpp */; };
+		D58A08DF0EDDC0BC004E88A4 /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A08A10EDDC0BC004E88A4 /* zutil.c */; };
+		D58A08E00EDDC0BC004E88A4 /* eyeGT_Utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08A20EDDC0BC004E88A4 /* eyeGT_Utilities.cpp */; };
+		D58A08E10EDDC0BC004E88A4 /* bf_StringUtils16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08A30EDDC0BC004E88A4 /* bf_StringUtils16.cpp */; };
+		D58A08E20EDDC0BC004E88A4 /* heapStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08A40EDDC0BC004E88A4 /* heapStream.cpp */; };
+		D58A08E30EDDC0BC004E88A4 /* objlist16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08A50EDDC0BC004E88A4 /* objlist16.cpp */; };
+		D58A08E40EDDC0BC004E88A4 /* objlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08A60EDDC0BC004E88A4 /* objlist.cpp */; };
+		D58A08E50EDDC0BC004E88A4 /* bf_StringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D58A08A70EDDC0BC004E88A4 /* bf_StringUtils.cpp */; };
+		D58A08E80EDDC0CF004E88A4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D58A08E60EDDC0CF004E88A4 /* Icon.png */; };
+		D58A08E90EDDC0CF004E88A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D58A08E70EDDC0CF004E88A4 /* Default.png */; };
+		D5B8B28C0EB90BC3009D6010 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B8B28B0EB90BC2009D6010 /* CoreGraphics.framework */; };
+		D5E9D52B0EBA547A00E196CC /* iPhone_Routines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5E9D52A0EBA547A00E196CC /* iPhone_Routines.cpp */; };
+		D5F5D6CC0EA0BAFC00C2AFB8 /* ScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F5D6C50EA0BAFC00C2AFB8 /* ScreenView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TransformAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TransformAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Transform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		312EEEAF0F5B8A6E00E38C2F /* WalkingLady.mhp */ = {isa = PBXFileReference; lastKnownFileType = file; name = WalkingLady.mhp; path = Common/Resources/WalkingLady.mhp; sourceTree = "<group>"; };
+		312EEEB00F5B8A6E00E38C2F /* ArialBlack.fnt */ = {isa = PBXFileReference; lastKnownFileType = file; name = ArialBlack.fnt; path = Common/Resources/ArialBlack.fnt; sourceTree = "<group>"; };
+		312EEEB10F5B8A6E00E38C2F /* Clown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Clown.jpg; path = Common/Resources/Clown.jpg; sourceTree = "<group>"; };
+		312EEEB20F5B8A6E00E38C2F /* TwirlShape.shp */ = {isa = PBXFileReference; lastKnownFileType = file; name = TwirlShape.shp; path = Common/Resources/TwirlShape.shp; sourceTree = "<group>"; };
+		3138DA020F5D859D00BD7F1E /* TransformToolbar.mhp */ = {isa = PBXFileReference; lastKnownFileType = file; name = TransformToolbar.mhp; path = Common/Resources/TransformToolbar.mhp; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Transform_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50F42A60EAB36540067041D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D58A082C0EDDC07E004E88A4 /* CommonTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTransform.h; sourceTree = "<group>"; };
+		D58A082D0EDDC07E004E88A4 /* CommonTransformDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTransformDefs.h; sourceTree = "<group>"; };
+		D58A082F0EDDC07E004E88A4 /* CommonTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommonTransform.cpp; sourceTree = "<group>"; };
+		D58A08680EDDC0BC004E88A4 /* jcomapi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jcomapi.cpp; path = eyeGT/Framework/Jpeg/jcomapi.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08690EDDC0BC004E88A4 /* jdapimin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdapimin.cpp; path = eyeGT/Framework/Jpeg/jdapimin.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A086A0EDDC0BC004E88A4 /* jdapistd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdapistd.cpp; path = eyeGT/Framework/Jpeg/jdapistd.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A086B0EDDC0BC004E88A4 /* jdatasrc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdatasrc.cpp; path = eyeGT/Framework/Jpeg/jdatasrc.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A086C0EDDC0BC004E88A4 /* jdcoefct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdcoefct.cpp; path = eyeGT/Framework/Jpeg/jdcoefct.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A086D0EDDC0BC004E88A4 /* jdcolor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdcolor.cpp; path = eyeGT/Framework/Jpeg/jdcolor.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A086E0EDDC0BC004E88A4 /* jddctmgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jddctmgr.cpp; path = eyeGT/Framework/Jpeg/jddctmgr.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A086F0EDDC0BC004E88A4 /* jdhuff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdhuff.cpp; path = eyeGT/Framework/Jpeg/jdhuff.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08700EDDC0BC004E88A4 /* jdinput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdinput.cpp; path = eyeGT/Framework/Jpeg/jdinput.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08710EDDC0BC004E88A4 /* jdmainct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdmainct.cpp; path = eyeGT/Framework/Jpeg/jdmainct.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08720EDDC0BC004E88A4 /* jdmarker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdmarker.cpp; path = eyeGT/Framework/Jpeg/jdmarker.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08730EDDC0BC004E88A4 /* jdmaster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdmaster.cpp; path = eyeGT/Framework/Jpeg/jdmaster.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08740EDDC0BC004E88A4 /* jdmerge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdmerge.cpp; path = eyeGT/Framework/Jpeg/jdmerge.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08750EDDC0BC004E88A4 /* jdphuff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdphuff.cpp; path = eyeGT/Framework/Jpeg/jdphuff.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08760EDDC0BC004E88A4 /* jdpostct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdpostct.cpp; path = eyeGT/Framework/Jpeg/jdpostct.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08770EDDC0BC004E88A4 /* jdsample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jdsample.cpp; path = eyeGT/Framework/Jpeg/jdsample.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08780EDDC0BC004E88A4 /* jerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jerror.cpp; path = eyeGT/Framework/Jpeg/jerror.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08790EDDC0BC004E88A4 /* jfdctint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jfdctint.cpp; path = eyeGT/Framework/Jpeg/jfdctint.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A087A0EDDC0BC004E88A4 /* jidctint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jidctint.cpp; path = eyeGT/Framework/Jpeg/jidctint.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A087B0EDDC0BC004E88A4 /* jidctfst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jidctfst.cpp; path = eyeGT/Framework/Jpeg/jidctfst.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A087C0EDDC0BC004E88A4 /* jidctred.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jidctred.cpp; path = eyeGT/Framework/Jpeg/jidctred.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A087D0EDDC0BC004E88A4 /* jmemmgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jmemmgr.cpp; path = eyeGT/Framework/Jpeg/jmemmgr.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A087E0EDDC0BC004E88A4 /* jmemnobs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jmemnobs.cpp; path = eyeGT/Framework/Jpeg/jmemnobs.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A087F0EDDC0BC004E88A4 /* JPEG_dec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JPEG_dec.cpp; path = eyeGT/Framework/Jpeg/JPEG_dec.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08800EDDC0BC004E88A4 /* jquant1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jquant1.cpp; path = eyeGT/Framework/Jpeg/jquant1.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08810EDDC0BC004E88A4 /* jquant2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jquant2.cpp; path = eyeGT/Framework/Jpeg/jquant2.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08820EDDC0BC004E88A4 /* jutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jutils.cpp; path = eyeGT/Framework/Jpeg/jutils.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08840EDDC0BC004E88A4 /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = png.c; path = eyeGT/Framework/Png/png.c; sourceTree = DEVELOPER_DIR; };
+		D58A08850EDDC0BC004E88A4 /* PNG_dec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PNG_dec.cpp; path = eyeGT/Framework/Png/PNG_dec.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08860EDDC0BC004E88A4 /* pngerror.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngerror.c; path = eyeGT/Framework/Png/pngerror.c; sourceTree = DEVELOPER_DIR; };
+		D58A08870EDDC0BC004E88A4 /* pngget.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngget.c; path = eyeGT/Framework/Png/pngget.c; sourceTree = DEVELOPER_DIR; };
+		D58A08880EDDC0BC004E88A4 /* pngmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngmem.c; path = eyeGT/Framework/Png/pngmem.c; sourceTree = DEVELOPER_DIR; };
+		D58A08890EDDC0BC004E88A4 /* pngpread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngpread.c; path = eyeGT/Framework/Png/pngpread.c; sourceTree = DEVELOPER_DIR; };
+		D58A088A0EDDC0BC004E88A4 /* pngread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngread.c; path = eyeGT/Framework/Png/pngread.c; sourceTree = DEVELOPER_DIR; };
+		D58A088B0EDDC0BC004E88A4 /* pngrio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngrio.c; path = eyeGT/Framework/Png/pngrio.c; sourceTree = DEVELOPER_DIR; };
+		D58A088C0EDDC0BC004E88A4 /* pngrtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngrtran.c; path = eyeGT/Framework/Png/pngrtran.c; sourceTree = DEVELOPER_DIR; };
+		D58A088D0EDDC0BC004E88A4 /* pngrutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngrutil.c; path = eyeGT/Framework/Png/pngrutil.c; sourceTree = DEVELOPER_DIR; };
+		D58A088E0EDDC0BC004E88A4 /* pngset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngset.c; path = eyeGT/Framework/Png/pngset.c; sourceTree = DEVELOPER_DIR; };
+		D58A088F0EDDC0BC004E88A4 /* pngtrans.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngtrans.c; path = eyeGT/Framework/Png/pngtrans.c; sourceTree = DEVELOPER_DIR; };
+		D58A08900EDDC0BC004E88A4 /* pngwio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwio.c; path = eyeGT/Framework/Png/pngwio.c; sourceTree = DEVELOPER_DIR; };
+		D58A08910EDDC0BC004E88A4 /* pngwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwrite.c; path = eyeGT/Framework/Png/pngwrite.c; sourceTree = DEVELOPER_DIR; };
+		D58A08920EDDC0BC004E88A4 /* pngwtran.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwtran.c; path = eyeGT/Framework/Png/pngwtran.c; sourceTree = DEVELOPER_DIR; };
+		D58A08930EDDC0BC004E88A4 /* pngwutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pngwutil.c; path = eyeGT/Framework/Png/pngwutil.c; sourceTree = DEVELOPER_DIR; };
+		D58A08950EDDC0BC004E88A4 /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = adler32.c; path = eyeGT/Framework/ZLib/adler32.c; sourceTree = DEVELOPER_DIR; };
+		D58A08960EDDC0BC004E88A4 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compress.c; path = eyeGT/Framework/ZLib/compress.c; sourceTree = DEVELOPER_DIR; };
+		D58A08970EDDC0BC004E88A4 /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = eyeGT/Framework/ZLib/crc32.c; sourceTree = DEVELOPER_DIR; };
+		D58A08980EDDC0BC004E88A4 /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = deflate.c; path = eyeGT/Framework/ZLib/deflate.c; sourceTree = DEVELOPER_DIR; };
+		D58A08990EDDC0BC004E88A4 /* gzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gzio.c; path = eyeGT/Framework/ZLib/gzio.c; sourceTree = DEVELOPER_DIR; };
+		D58A089A0EDDC0BC004E88A4 /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = infback.c; path = eyeGT/Framework/ZLib/infback.c; sourceTree = DEVELOPER_DIR; };
+		D58A089B0EDDC0BC004E88A4 /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inffast.c; path = eyeGT/Framework/ZLib/inffast.c; sourceTree = DEVELOPER_DIR; };
+		D58A089C0EDDC0BC004E88A4 /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inflate.c; path = eyeGT/Framework/ZLib/inflate.c; sourceTree = DEVELOPER_DIR; };
+		D58A089D0EDDC0BC004E88A4 /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inftrees.c; path = eyeGT/Framework/ZLib/inftrees.c; sourceTree = DEVELOPER_DIR; };
+		D58A089E0EDDC0BC004E88A4 /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trees.c; path = eyeGT/Framework/ZLib/trees.c; sourceTree = DEVELOPER_DIR; };
+		D58A089F0EDDC0BC004E88A4 /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = uncompr.c; path = eyeGT/Framework/ZLib/uncompr.c; sourceTree = DEVELOPER_DIR; };
+		D58A08A00EDDC0BC004E88A4 /* zlib_globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = zlib_globals.cpp; path = eyeGT/Framework/ZLib/zlib_globals.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08A10EDDC0BC004E88A4 /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zutil.c; path = eyeGT/Framework/ZLib/zutil.c; sourceTree = DEVELOPER_DIR; };
+		D58A08A20EDDC0BC004E88A4 /* eyeGT_Utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = eyeGT_Utilities.cpp; path = eyeGT/Framework/eyeGT_Utilities.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08A30EDDC0BC004E88A4 /* bf_StringUtils16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bf_StringUtils16.cpp; path = eyeGT/Framework/bf_StringUtils16.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08A40EDDC0BC004E88A4 /* heapStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = heapStream.cpp; path = eyeGT/Framework/heapStream.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08A50EDDC0BC004E88A4 /* objlist16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = objlist16.cpp; path = eyeGT/Framework/objlist16.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08A60EDDC0BC004E88A4 /* objlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = objlist.cpp; path = eyeGT/Framework/objlist.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08A70EDDC0BC004E88A4 /* bf_StringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bf_StringUtils.cpp; path = eyeGT/Framework/bf_StringUtils.cpp; sourceTree = DEVELOPER_DIR; };
+		D58A08E60EDDC0CF004E88A4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D58A08E70EDDC0CF004E88A4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D5B8B28B0EB90BC2009D6010 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D5E9D5290EBA547A00E196CC /* iPhone_Routines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhone_Routines.h; sourceTree = "<group>"; };
+		D5E9D52A0EBA547A00E196CC /* iPhone_Routines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iPhone_Routines.cpp; sourceTree = "<group>"; };
+		D5F5D6C40EA0BAFC00C2AFB8 /* ScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenView.h; sourceTree = "<group>"; };
+		D5F5D6C50EA0BAFC00C2AFB8 /* ScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				D50F42A70EAB36540067041D /* QuartzCore.framework in Frameworks */,
+				D5B8B28C0EB90BC3009D6010 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9D5290EBA547A00E196CC /* iPhone_Routines.h */,
+				D5E9D52A0EBA547A00E196CC /* iPhone_Routines.cpp */,
+				D5F5D6C40EA0BAFC00C2AFB8 /* ScreenView.h */,
+				D5F5D6C50EA0BAFC00C2AFB8 /* ScreenView.m */,
+				1D3623240D0F684500981E51 /* TransformAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TransformAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Transform.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				D58A082A0EDDC07E004E88A4 /* Common */,
+				D50859350EC4FFE10024FC4C /* Framework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Transform_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3138DA020F5D859D00BD7F1E /* TransformToolbar.mhp */,
+				312EEEAF0F5B8A6E00E38C2F /* WalkingLady.mhp */,
+				312EEEB00F5B8A6E00E38C2F /* ArialBlack.fnt */,
+				312EEEB10F5B8A6E00E38C2F /* Clown.jpg */,
+				312EEEB20F5B8A6E00E38C2F /* TwirlShape.shp */,
+				D58A08E60EDDC0CF004E88A4 /* Icon.png */,
+				D58A08E70EDDC0CF004E88A4 /* Default.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B8B28B0EB90BC2009D6010 /* CoreGraphics.framework */,
+				D50F42A60EAB36540067041D /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50859350EC4FFE10024FC4C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				D58A08670EDDC0BC004E88A4 /* Jpeg */,
+				D58A08830EDDC0BC004E88A4 /* Png */,
+				D58A08940EDDC0BC004E88A4 /* ZLib */,
+				D58A08A20EDDC0BC004E88A4 /* eyeGT_Utilities.cpp */,
+				D58A08A30EDDC0BC004E88A4 /* bf_StringUtils16.cpp */,
+				D58A08A40EDDC0BC004E88A4 /* heapStream.cpp */,
+				D58A08A50EDDC0BC004E88A4 /* objlist16.cpp */,
+				D58A08A60EDDC0BC004E88A4 /* objlist.cpp */,
+				D58A08A70EDDC0BC004E88A4 /* bf_StringUtils.cpp */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		D58A082A0EDDC07E004E88A4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D58A082B0EDDC07E004E88A4 /* Include */,
+				D58A082E0EDDC07E004E88A4 /* Source */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D58A082B0EDDC07E004E88A4 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				D58A082C0EDDC07E004E88A4 /* CommonTransform.h */,
+				D58A082D0EDDC07E004E88A4 /* CommonTransformDefs.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		D58A082E0EDDC07E004E88A4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D58A082F0EDDC07E004E88A4 /* CommonTransform.cpp */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D58A08670EDDC0BC004E88A4 /* Jpeg */ = {
+			isa = PBXGroup;
+			children = (
+				D58A08680EDDC0BC004E88A4 /* jcomapi.cpp */,
+				D58A08690EDDC0BC004E88A4 /* jdapimin.cpp */,
+				D58A086A0EDDC0BC004E88A4 /* jdapistd.cpp */,
+				D58A086B0EDDC0BC004E88A4 /* jdatasrc.cpp */,
+				D58A086C0EDDC0BC004E88A4 /* jdcoefct.cpp */,
+				D58A086D0EDDC0BC004E88A4 /* jdcolor.cpp */,
+				D58A086E0EDDC0BC004E88A4 /* jddctmgr.cpp */,
+				D58A086F0EDDC0BC004E88A4 /* jdhuff.cpp */,
+				D58A08700EDDC0BC004E88A4 /* jdinput.cpp */,
+				D58A08710EDDC0BC004E88A4 /* jdmainct.cpp */,
+				D58A08720EDDC0BC004E88A4 /* jdmarker.cpp */,
+				D58A08730EDDC0BC004E88A4 /* jdmaster.cpp */,
+				D58A08740EDDC0BC004E88A4 /* jdmerge.cpp */,
+				D58A08750EDDC0BC004E88A4 /* jdphuff.cpp */,
+				D58A08760EDDC0BC004E88A4 /* jdpostct.cpp */,
+				D58A08770EDDC0BC004E88A4 /* jdsample.cpp */,
+				D58A08780EDDC0BC004E88A4 /* jerror.cpp */,
+				D58A08790EDDC0BC004E88A4 /* jfdctint.cpp */,
+				D58A087A0EDDC0BC004E88A4 /* jidctint.cpp */,
+				D58A087B0EDDC0BC004E88A4 /* jidctfst.cpp */,
+				D58A087C0EDDC0BC004E88A4 /* jidctred.cpp */,
+				D58A087D0EDDC0BC004E88A4 /* jmemmgr.cpp */,
+				D58A087E0EDDC0BC004E88A4 /* jmemnobs.cpp */,
+				D58A087F0EDDC0BC004E88A4 /* JPEG_dec.cpp */,
+				D58A08800EDDC0BC004E88A4 /* jquant1.cpp */,
+				D58A08810EDDC0BC004E88A4 /* jquant2.cpp */,
+				D58A08820EDDC0BC004E88A4 /* jutils.cpp */,
+			);
+			name = Jpeg;
+			path = eyeGT/Framework/Jpeg;
+			sourceTree = DEVELOPER_DIR;
+		};
+		D58A08830EDDC0BC004E88A4 /* Png */ = {
+			isa = PBXGroup;
+			children = (
+				D58A08840EDDC0BC004E88A4 /* png.c */,
+				D58A08850EDDC0BC004E88A4 /* PNG_dec.cpp */,
+				D58A08860EDDC0BC004E88A4 /* pngerror.c */,
+				D58A08870EDDC0BC004E88A4 /* pngget.c */,
+				D58A08880EDDC0BC004E88A4 /* pngmem.c */,
+				D58A08890EDDC0BC004E88A4 /* pngpread.c */,
+				D58A088A0EDDC0BC004E88A4 /* pngread.c */,
+				D58A088B0EDDC0BC004E88A4 /* pngrio.c */,
+				D58A088C0EDDC0BC004E88A4 /* pngrtran.c */,
+				D58A088D0EDDC0BC004E88A4 /* pngrutil.c */,
+				D58A088E0EDDC0BC004E88A4 /* pngset.c */,
+				D58A088F0EDDC0BC004E88A4 /* pngtrans.c */,
+				D58A08900EDDC0BC004E88A4 /* pngwio.c */,
+				D58A08910EDDC0BC004E88A4 /* pngwrite.c */,
+				D58A08920EDDC0BC004E88A4 /* pngwtran.c */,
+				D58A08930EDDC0BC004E88A4 /* pngwutil.c */,
+			);
+			name = Png;
+			path = eyeGT/Framework/Png;
+			sourceTree = DEVELOPER_DIR;
+		};
+		D58A08940EDDC0BC004E88A4 /* ZLib */ = {
+			isa = PBXGroup;
+			children = (
+				D58A08950EDDC0BC004E88A4 /* adler32.c */,
+				D58A08960EDDC0BC004E88A4 /* compress.c */,
+				D58A08970EDDC0BC004E88A4 /* crc32.c */,
+				D58A08980EDDC0BC004E88A4 /* deflate.c */,
+				D58A08990EDDC0BC004E88A4 /* gzio.c */,
+				D58A089A0EDDC0BC004E88A4 /* infback.c */,
+				D58A089B0EDDC0BC004E88A4 /* inffast.c */,
+				D58A089C0EDDC0BC004E88A4 /* inflate.c */,
+				D58A089D0EDDC0BC004E88A4 /* inftrees.c */,
+				D58A089E0EDDC0BC004E88A4 /* trees.c */,
+				D58A089F0EDDC0BC004E88A4 /* uncompr.c */,
+				D58A08A00EDDC0BC004E88A4 /* zlib_globals.cpp */,
+				D58A08A10EDDC0BC004E88A4 /* zutil.c */,
+			);
+			name = ZLib;
+			path = eyeGT/Framework/ZLib;
+			sourceTree = DEVELOPER_DIR;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Transform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Transform" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transform;
+			productName = Transform;
+			productReference = 1D6058910D05DD3D006BFB54 /* Transform.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Transform" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Transform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				D58A08E80EDDC0CF004E88A4 /* Icon.png in Resources */,
+				D58A08E90EDDC0CF004E88A4 /* Default.png in Resources */,
+				312EEEB30F5B8A6E00E38C2F /* WalkingLady.mhp in Resources */,
+				312EEEB40F5B8A6E00E38C2F /* ArialBlack.fnt in Resources */,
+				312EEEB50F5B8A6E00E38C2F /* Clown.jpg in Resources */,
+				312EEEB60F5B8A6E00E38C2F /* TwirlShape.shp in Resources */,
+				3138DA030F5D859D00BD7F1E /* TransformToolbar.mhp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TransformAppDelegate.m in Sources */,
+				D5F5D6CC0EA0BAFC00C2AFB8 /* ScreenView.m in Sources */,
+				D5E9D52B0EBA547A00E196CC /* iPhone_Routines.cpp in Sources */,
+				D58A08300EDDC07E004E88A4 /* CommonTransform.cpp in Sources */,
+				D58A08A80EDDC0BC004E88A4 /* jcomapi.cpp in Sources */,
+				D58A08A90EDDC0BC004E88A4 /* jdapimin.cpp in Sources */,
+				D58A08AA0EDDC0BC004E88A4 /* jdapistd.cpp in Sources */,
+				D58A08AB0EDDC0BC004E88A4 /* jdatasrc.cpp in Sources */,
+				D58A08AC0EDDC0BC004E88A4 /* jdcoefct.cpp in Sources */,
+				D58A08AD0EDDC0BC004E88A4 /* jdcolor.cpp in Sources */,
+				D58A08AE0EDDC0BC004E88A4 /* jddctmgr.cpp in Sources */,
+				D58A08AF0EDDC0BC004E88A4 /* jdhuff.cpp in Sources */,
+				D58A08B00EDDC0BC004E88A4 /* jdinput.cpp in Sources */,
+				D58A08B10EDDC0BC004E88A4 /* jdmainct.cpp in Sources */,
+				D58A08B20EDDC0BC004E88A4 /* jdmarker.cpp in Sources */,
+				D58A08B30EDDC0BC004E88A4 /* jdmaster.cpp in Sources */,
+				D58A08B40EDDC0BC004E88A4 /* jdmerge.cpp in Sources */,
+				D58A08B50EDDC0BC004E88A4 /* jdphuff.cpp in Sources */,
+				D58A08B60EDDC0BC004E88A4 /* jdpostct.cpp in Sources */,
+				D58A08B70EDDC0BC004E88A4 /* jdsample.cpp in Sources */,
+				D58A08B80EDDC0BC004E88A4 /* jerror.cpp in Sources */,
+				D58A08B90EDDC0BC004E88A4 /* jfdctint.cpp in Sources */,
+				D58A08BA0EDDC0BC004E88A4 /* jidctint.cpp in Sources */,
+				D58A08BB0EDDC0BC004E88A4 /* jidctfst.cpp in Sources */,
+				D58A08BC0EDDC0BC004E88A4 /* jidctred.cpp in Sources */,
+				D58A08BD0EDDC0BC004E88A4 /* jmemmgr.cpp in Sources */,
+				D58A08BE0EDDC0BC004E88A4 /* jmemnobs.cpp in Sources */,
+				D58A08BF0EDDC0BC004E88A4 /* JPEG_dec.cpp in Sources */,
+				D58A08C00EDDC0BC004E88A4 /* jquant1.cpp in Sources */,
+				D58A08C10EDDC0BC004E88A4 /* jquant2.cpp in Sources */,
+				D58A08C20EDDC0BC004E88A4 /* jutils.cpp in Sources */,
+				D58A08C30EDDC0BC004E88A4 /* png.c in Sources */,
+				D58A08C40EDDC0BC004E88A4 /* PNG_dec.cpp in Sources */,
+				D58A08C50EDDC0BC004E88A4 /* pngerror.c in Sources */,
+				D58A08C60EDDC0BC004E88A4 /* pngget.c in Sources */,
+				D58A08C70EDDC0BC004E88A4 /* pngmem.c in Sources */,
+				D58A08C80EDDC0BC004E88A4 /* pngpread.c in Sources */,
+				D58A08C90EDDC0BC004E88A4 /* pngread.c in Sources */,
+				D58A08CA0EDDC0BC004E88A4 /* pngrio.c in Sources */,
+				D58A08CB0EDDC0BC004E88A4 /* pngrtran.c in Sources */,
+				D58A08CC0EDDC0BC004E88A4 /* pngrutil.c in Sources */,
+				D58A08CD0EDDC0BC004E88A4 /* pngset.c in Sources */,
+				D58A08CE0EDDC0BC004E88A4 /* pngtrans.c in Sources */,
+				D58A08CF0EDDC0BC004E88A4 /* pngwio.c in Sources */,
+				D58A08D00EDDC0BC004E88A4 /* pngwrite.c in Sources */,
+				D58A08D10EDDC0BC004E88A4 /* pngwtran.c in Sources */,
+				D58A08D20EDDC0BC004E88A4 /* pngwutil.c in Sources */,
+				D58A08D30EDDC0BC004E88A4 /* adler32.c in Sources */,
+				D58A08D40EDDC0BC004E88A4 /* compress.c in Sources */,
+				D58A08D50EDDC0BC004E88A4 /* crc32.c in Sources */,
+				D58A08D60EDDC0BC004E88A4 /* deflate.c in Sources */,
+				D58A08D70EDDC0BC004E88A4 /* gzio.c in Sources */,
+				D58A08D80EDDC0BC004E88A4 /* infback.c in Sources */,
+				D58A08D90EDDC0BC004E88A4 /* inffast.c in Sources */,
+				D58A08DA0EDDC0BC004E88A4 /* inflate.c in Sources */,
+				D58A08DB0EDDC0BC004E88A4 /* inftrees.c in Sources */,
+				D58A08DC0EDDC0BC004E88A4 /* trees.c in Sources */,
+				D58A08DD0EDDC0BC004E88A4 /* uncompr.c in Sources */,
+				D58A08DE0EDDC0BC004E88A4 /* zlib_globals.cpp in Sources */,
+				D58A08DF0EDDC0BC004E88A4 /* zutil.c in Sources */,
+				D58A08E00EDDC0BC004E88A4 /* eyeGT_Utilities.cpp in Sources */,
+				D58A08E10EDDC0BC004E88A4 /* bf_StringUtils16.cpp in Sources */,
+				D58A08E20EDDC0BC004E88A4 /* heapStream.cpp in Sources */,
+				D58A08E30EDDC0BC004E88A4 /* objlist16.cpp in Sources */,
+				D58A08E40EDDC0BC004E88A4 /* objlist.cpp in Sources */,
+				D58A08E50EDDC0BC004E88A4 /* bf_StringUtils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Transform_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/eyeGT/Lib\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../eyeGTLib/eyeGT_iPhone/eyeGT_0100/build/Release-iphonesimulator\"",
+					"\"$(SRCROOT)/../eyeGTLib/eyeGT_iPhone/eyeGT_0100/build/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/../eyeGTLib\"",
+				);
+				PRODUCT_NAME = Transform;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Transform_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/eyeGT/Lib\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../eyeGTLib/eyeGT_iPhone/eyeGT_0100/build/Release-iphonesimulator\"",
+					"\"$(SRCROOT)/../eyeGTLib/eyeGT_iPhone/eyeGT_0100/build/Debug-iphonesimulator\"",
+					"\"$(SRCROOT)/../eyeGTLib\"",
+				);
+				PRODUCT_NAME = Transform;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emanuele Cipolloni";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ICommon/Include",
+					"-I/Developer/eyeGT/Include",
+					"-I/Developer/eyeGT/Framework",
+					"-I/Developer/eyeGT/Framework/Jpeg",
+					"-I/Developer/eyeGT/Framework/Png",
+					"-I/Developer/eyeGT/Framework/ZLib",
+					"-DDONT_USE_RGBA",
+					"-DUSE_DLL",
+					"-DUNDER_IPHONE",
+					"-DDEVICE_HAS_TOUCHSCREEN",
+					"-DPNG_NO_MODULEDEF",
+					"-DPNG_NO_FLOATING_POINT_SUPPORTED",
+					"-DPNG_NO_MNG_FEATURES",
+					"-DPNG_NO_MMX_CODE",
+					"-DPNG_NO_WRITE_SUPPORTED",
+					"-DPNG_NO_CONSOLE_IO",
+					"-DNO_vsnprintf",
+					"-DBUILD_ZLIB",
+					"-DBUILD_TRANSFORM",
+				);
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "823127E8-EB2F-4C4C-9DE9-3E0F98D4FBF2";
+				SDKROOT = iphonesimulator2.1;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Emanuele Cipolloni";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = (
+					"-ICommon/Include",
+					"-I/Developer/eyeGT/Include",
+					"-I/Developer/eyeGT/Framework",
+					"-I/Developer/eyeGT/Framework/Jpeg",
+					"-I/Developer/eyeGT/Framework/Png",
+					"-I/Developer/eyeGT/Framework/ZLib",
+					"-DUSE_RGBA",
+					"-DUSE_DLL",
+					"-DUNDER_IPHONE",
+					"-DDEVICE_HAS_TOUCHSCREEN",
+					"-DPNG_NO_MODULEDEF",
+					"-DPNG_NO_FLOATING_POINT_SUPPORTED",
+					"-DPNG_NO_MNG_FEATURES",
+					"-DPNG_NO_MMX_CODE",
+					"-DPNG_NO_WRITE_SUPPORTED",
+					"-DPNG_NO_CONSOLE_IO",
+					"-DNO_vsnprintf",
+					"-DBUILD_ZLIB",
+					"-DBUILD_TRANSFORM",
+				);
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "823127E8-EB2F-4C4C-9DE9-3E0F98D4FBF2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E12DB7EA-1CCA-458F-9BA5-CB1984466041";
+				SDKROOT = iphoneos2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Transform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Transform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

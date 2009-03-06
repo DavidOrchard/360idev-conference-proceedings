@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* AddressBookMultiValueAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 728}}";
+			sepNavSelRange = "{399, 0}";
+			sepNavVisRange = "{254, 1526}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* AddressBookMultiValue */ = {
+		activeExec = 0;
+		executables = (
+			F0D00CF30F53984300BA9FB5 /* AddressBookMultiValue */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F0D00CF30F53984300BA9FB5 /* AddressBookMultiValue */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* AddressBookMultiValue */;
+		breakpoints = (
+			F0D00D570F539C7B00BA9FB5 /* AddressBookMultiValueAppDelegate.m:31 */,
+		);
+		codeSenseManager = F0D00CFD0F53986100BA9FB5 /* Code sense */;
+		executables = (
+			F0D00CF30F53984300BA9FB5 /* AddressBookMultiValue */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					953,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 257426380;
+			PBXWorkspaceStateSaveDate = 257426380;
+		};
+		perUserProjectItems = {
+			F06BA8FE0F57FEF400BA158A /* PBXTextBookmark */ = F06BA8FE0F57FEF400BA158A /* PBXTextBookmark */;
+			F06BA9000F57FEF400BA158A /* PBXTextBookmark */ = F06BA9000F57FEF400BA158A /* PBXTextBookmark */;
+			F06BA9020F57FEF400BA158A /* PBXTextBookmark */ = F06BA9020F57FEF400BA158A /* PBXTextBookmark */;
+			F06BA9030F57FEF400BA158A /* PBXTextBookmark */ = F06BA9030F57FEF400BA158A /* PBXTextBookmark */;
+			F06BA9050F57FEF400BA158A /* PBXTextBookmark */ = F06BA9050F57FEF400BA158A /* PBXTextBookmark */;
+			F06BA91B0F5801F100BA158A /* PBXTextBookmark */ = F06BA91B0F5801F100BA158A /* PBXTextBookmark */;
+			F06BA91D0F5801F100BA158A /* PBXTextBookmark */ = F06BA91D0F5801F100BA158A /* PBXTextBookmark */;
+			F06BA91F0F5801F100BA158A /* PBXTextBookmark */ = F06BA91F0F5801F100BA158A /* PBXTextBookmark */;
+			F06BA9210F5801F100BA158A /* PBXTextBookmark */ = F06BA9210F5801F100BA158A /* PBXTextBookmark */;
+			F06BA9250F5801F100BA158A /* PBXTextBookmark */ = F06BA9250F5801F100BA158A /* PBXTextBookmark */;
+			F06BA9270F5801F100BA158A /* PBXTextBookmark */ = F06BA9270F5801F100BA158A /* PBXTextBookmark */;
+			F06BA92D0F5801F100BA158A /* PBXTextBookmark */ = F06BA92D0F5801F100BA158A /* PBXTextBookmark */;
+			F06BA92F0F5801F100BA158A /* PBXTextBookmark */ = F06BA92F0F5801F100BA158A /* PBXTextBookmark */;
+			F06BA9710F5803E300BA158A /* PBXTextBookmark */ = F06BA9710F5803E300BA158A /* PBXTextBookmark */;
+			F06BA9720F5803E300BA158A /* PBXTextBookmark */ = F06BA9720F5803E300BA158A /* PBXTextBookmark */;
+			F06BA9730F5803E300BA158A /* PBXTextBookmark */ = F06BA9730F5803E300BA158A /* PBXTextBookmark */;
+			F06BA9740F5803E300BA158A /* PBXTextBookmark */ = F06BA9740F5803E300BA158A /* PBXTextBookmark */;
+			F0D00D310F5399E900BA9FB5 /* PBXTextBookmark */ = F0D00D310F5399E900BA9FB5 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F0D00CFC0F53986100BA9FB5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	F06BA8FE0F57FEF400BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA8FF0F57FEF400BA158A /* ABMultiValue.h */;
+		name = "ABMultiValue.h: 49";
+		rLen = 14;
+		rLoc = 1584;
+		rType = 0;
+		vrLen = 1750;
+		vrLoc = 652;
+	};
+	F06BA8FF0F57FEF400BA158A /* ABMultiValue.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABMultiValue.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABMultiValue.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA9000F57FEF400BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0D00D4D0F539AF800BA9FB5 /* ABRecord.h */;
+		name = "ABRecord.h: 36";
+		rLen = 33;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1310;
+		vrLoc = 387;
+	};
+	F06BA9020F57FEF400BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AddressBookMultiValueAppDelegate.m */;
+		name = "AddressBookMultiValueAppDelegate.m: 20";
+		rLen = 25;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1510;
+		vrLoc = 255;
+	};
+	F06BA9030F57FEF400BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA9040F57FEF400BA158A /* ABMultiValue.h */;
+		name = "ABMultiValue.h: 49";
+		rLen = 14;
+		rLoc = 1584;
+		rType = 0;
+		vrLen = 1750;
+		vrLoc = 652;
+	};
+	F06BA9040F57FEF400BA158A /* ABMultiValue.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABMultiValue.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABMultiValue.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA9050F57FEF400BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0D00D4D0F539AF800BA9FB5 /* ABRecord.h */;
+		name = "ABRecord.h: 36";
+		rLen = 33;
+		rLoc = 685;
+		rType = 0;
+		vrLen = 1310;
+		vrLoc = 387;
+	};
+	F06BA91B0F5801F100BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA91C0F5801F100BA158A /* ABPerson.h */;
+		name = "ABPerson.h: 34";
+		rLen = 0;
+		rLoc = 749;
+		rType = 0;
+		vrLen = 1507;
+		vrLoc = 3130;
+	};
+	F06BA91C0F5801F100BA158A /* ABPerson.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABPerson.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABPerson.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA91D0F5801F100BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA91E0F5801F100BA158A /* ABRecord.h */;
+		name = "ABRecord.h: 62";
+		rLen = 0;
+		rLoc = 1897;
+		rType = 0;
+		vrLen = 1314;
+		vrLoc = 593;
+	};
+	F06BA91E0F5801F100BA158A /* ABRecord.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABRecord.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABRecord.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA91F0F5801F100BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA9200F5801F100BA158A /* AddressBook.h */;
+		name = "AddressBook.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 0;
+	};
+	F06BA9200F5801F100BA158A /* AddressBook.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AddressBook.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA9210F5801F100BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA9220F5801F100BA158A /* ABGroup.h */;
+		name = "ABGroup.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 33;
+	};
+	F06BA9220F5801F100BA158A /* ABGroup.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABGroup.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABGroup.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA9250F5801F100BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA9260F5801F100BA158A /* ABPerson.h */;
+		name = "ABPerson.h: 41";
+		rLen = 9;
+		rLoc = 926;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 381;
+	};
+	F06BA9260F5801F100BA158A /* ABPerson.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABPerson.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABPerson.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA9270F5801F100BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA9280F5801F100BA158A /* ABRecord.h */;
+		name = "ABRecord.h: 58";
+		rLen = 25;
+		rLoc = 1816;
+		rType = 0;
+		vrLen = 1314;
+		vrLoc = 593;
+	};
+	F06BA9280F5801F100BA158A /* ABRecord.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABRecord.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABRecord.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA92D0F5801F100BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA92E0F5801F100BA158A /* AddressBook.h */;
+		name = "AddressBook.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1052;
+		vrLoc = 0;
+	};
+	F06BA92E0F5801F100BA158A /* AddressBook.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AddressBook.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA92F0F5801F100BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA9300F5801F100BA158A /* ABGroup.h */;
+		name = "ABGroup.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 33;
+	};
+	F06BA9300F5801F100BA158A /* ABGroup.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABGroup.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABGroup.h;
+		sourceTree = "<absolute>";
+	};
+	F06BA9320F5801F100BA158A /* ABAddressBook.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABAddressBook.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABAddressBook.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1134}}";
+			sepNavSelRange = "{611, 0}";
+			sepNavVisRange = "{0, 1058}";
+		};
+	};
+	F06BA9710F5803E300BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA9320F5801F100BA158A /* ABAddressBook.h */;
+		name = "ABAddressBook.h: 30";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 0;
+	};
+	F06BA9720F5803E300BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AddressBookMultiValueAppDelegate.m */;
+		name = "AddressBookMultiValueAppDelegate.m: 36";
+		rLen = 0;
+		rLoc = 1513;
+		rType = 0;
+		vrLen = 1531;
+		vrLoc = 254;
+	};
+	F06BA9730F5803E300BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F06BA9320F5801F100BA158A /* ABAddressBook.h */;
+		name = "ABAddressBook.h: 30";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 0;
+	};
+	F06BA9740F5803E300BA158A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AddressBookMultiValueAppDelegate.m */;
+		name = "AddressBookMultiValueAppDelegate.m: 17";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 1526;
+		vrLoc = 254;
+	};
+	F0D00CF30F53984300BA9FB5 /* AddressBookMultiValue */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AddressBookMultiValue;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F0D00CFC0F53986100BA9FB5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	F0D00CFD0F53986100BA9FB5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F0D00D310F5399E900BA9FB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0D00D320F5399E900BA9FB5 /* ABPerson.h */;
+		name = "ABPerson.h: 167";
+		rLen = 116;
+		rLoc = 5900;
+		rType = 0;
+		vrLen = 1592;
+		vrLoc = 5289;
+	};
+	F0D00D320F5399E900BA9FB5 /* ABPerson.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABPerson.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABPerson.h;
+		sourceTree = "<absolute>";
+	};
+	F0D00D4D0F539AF800BA9FB5 /* ABRecord.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABRecord.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABRecord.h;
+		sourceTree = "<absolute>";
+	};
+	F0D00D570F539C7B00BA9FB5 /* AddressBookMultiValueAppDelegate.m:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* AddressBookMultiValueAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = AddressBookMultiValue;
+		modificationTime = 257138329.421821;
+		state = 1;
+	};
+}

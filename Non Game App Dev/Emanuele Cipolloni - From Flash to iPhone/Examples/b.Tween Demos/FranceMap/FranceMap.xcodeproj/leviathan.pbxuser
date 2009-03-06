@@ -1,0 +1,206 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FranceMapAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 536}}";
+			sepNavSelRange = "{279, 20}";
+			sepNavVisRange = "{0, 492}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FranceMapAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 826}}";
+			sepNavSelRange = "{244, 0}";
+			sepNavVisRange = "{0, 940}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FranceMap */ = {
+		activeExec = 0;
+		executables = (
+			3189C5930F5C2E5B003F4BA1 /* FranceMap */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3189C5930F5C2E5B003F4BA1 /* FranceMap */;
+		activeSDKPreference = iphonesimulator2.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FranceMap */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FranceMap */,
+		);
+		codeSenseManager = 3189C5AE0F5C2E77003F4BA1 /* Code sense */;
+		executables = (
+			3189C5930F5C2E5B003F4BA1 /* FranceMap */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					534,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 257787406;
+			PBXWorkspaceStateSaveDate = 257787406;
+		};
+		perUserProjectItems = {
+			31154ABC0F5C33BC000199F6 /* PBXTextBookmark */ = 31154ABC0F5C33BC000199F6 /* PBXTextBookmark */;
+			31154ABD0F5C33BC000199F6 /* PBXTextBookmark */ = 31154ABD0F5C33BC000199F6 /* PBXTextBookmark */;
+			31154ABE0F5C33BC000199F6 /* PBXTextBookmark */ = 31154ABE0F5C33BC000199F6 /* PBXTextBookmark */;
+			31154AC10F5C33BC000199F6 /* PBXTextBookmark */ = 31154AC10F5C33BC000199F6 /* PBXTextBookmark */;
+			3138DA250F5D862300BD7F1E /* PBXTextBookmark */ = 3138DA250F5D862300BD7F1E /* PBXTextBookmark */;
+			317BC7180F5C969500958F0D /* PBXTextBookmark */ = 317BC7180F5C969500958F0D /* PBXTextBookmark */;
+			3189C5E60F5C3029003F4BA1 /* PBXTextBookmark */ = 3189C5E60F5C3029003F4BA1 /* PBXTextBookmark */;
+			3189C5E70F5C3029003F4BA1 /* PBXTextBookmark */ = 3189C5E70F5C3029003F4BA1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3189C5AD0F5C2E77003F4BA1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	31154ABC0F5C33BC000199F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FranceMapAppDelegate.h */;
+		name = "FranceMapAppDelegate.h: 17";
+		rLen = 20;
+		rLoc = 279;
+		rType = 0;
+		vrLen = 492;
+		vrLoc = 0;
+	};
+	31154ABD0F5C33BC000199F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D5F5D6C50EA0BAFC00C2AFB8 /* ScreenView.m */;
+		name = "ScreenView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1149;
+		vrLoc = 1425;
+	};
+	31154ABE0F5C33BC000199F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FranceMapAppDelegate.m */;
+		name = "FranceMapAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 244;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 0;
+	};
+	31154AC10F5C33BC000199F6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D5F5D6C50EA0BAFC00C2AFB8 /* ScreenView.m */;
+		name = "ScreenView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1149;
+		vrLoc = 1425;
+	};
+	3138DA250F5D862300BD7F1E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D5E9D52A0EBA547A00E196CC /* iPhone_Routines.cpp */;
+		name = "iPhone_Routines.cpp: 77";
+		rLen = 0;
+		rLoc = 1214;
+		rType = 0;
+		vrLen = 638;
+		vrLoc = 6413;
+	};
+	317BC7180F5C969500958F0D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D5E9D52A0EBA547A00E196CC /* iPhone_Routines.cpp */;
+		name = "iPhone_Routines.cpp: 77";
+		rLen = 0;
+		rLoc = 1214;
+		rType = 0;
+		vrLen = 516;
+		vrLoc = 0;
+	};
+	3189C5930F5C2E5B003F4BA1 /* FranceMap */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FranceMap;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	3189C5AD0F5C2E77003F4BA1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	3189C5AE0F5C2E77003F4BA1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3189C5E60F5C3029003F4BA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FranceMapAppDelegate.h */;
+		name = "FranceMapAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 400;
+		vrLoc = 92;
+	};
+	3189C5E70F5C3029003F4BA1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FranceMapAppDelegate.m */;
+		name = "FranceMapAppDelegate.m: 13";
+		rLen = 0;
+		rLoc = 244;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 0;
+	};
+	D5E9D52A0EBA547A00E196CC /* iPhone_Routines.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {744, 5880}}";
+			sepNavSelRange = "{1214, 0}";
+			sepNavVisRange = "{6413, 638}";
+		};
+	};
+	D5F5D6C50EA0BAFC00C2AFB8 /* ScreenView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1902, 3892}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1425, 1149}";
+		};
+	};
+}

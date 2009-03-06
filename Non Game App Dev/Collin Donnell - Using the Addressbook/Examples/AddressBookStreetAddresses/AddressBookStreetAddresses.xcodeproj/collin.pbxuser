@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* AddressBookStreetAddressesAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 798}}";
+			sepNavSelRange = "{2173, 0}";
+			sepNavVisRange = "{269, 1840}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* AddressBookStreetAddresses */ = {
+		activeExec = 0;
+		executables = (
+			F0D00D900F53A7B200BA9FB5 /* AddressBookStreetAddresses */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F0D00D900F53A7B200BA9FB5 /* AddressBookStreetAddresses */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* AddressBookStreetAddresses */;
+		breakpoints = (
+			F0D00DC10F53DBCD00BA9FB5 /* AddressBookStreetAddressesAppDelegate.m:37 */,
+		);
+		codeSenseManager = F0D00D9A0F53A7C500BA9FB5 /* Code sense */;
+		executables = (
+			F0D00D900F53A7B200BA9FB5 /* AddressBookStreetAddresses */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					883,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					881,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					366,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					969,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					953,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 257231801;
+			PBXWorkspaceStateSaveDate = 257231801;
+		};
+		perUserProjectItems = {
+			F07961AC0F55088E005EB8D1 /* PBXTextBookmark */ = F07961AC0F55088E005EB8D1 /* PBXTextBookmark */;
+			F07961AF0F55088E005EB8D1 /* PBXTextBookmark */ = F07961AF0F55088E005EB8D1 /* PBXTextBookmark */;
+			F07961C60F550BC3005EB8D1 /* PBXTextBookmark */ = F07961C60F550BC3005EB8D1 /* PBXTextBookmark */;
+			F07961D40F550BD3005EB8D1 /* PBXTextBookmark */ = F07961D40F550BD3005EB8D1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F0D00D990F53A7C500BA9FB5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	F07961AC0F55088E005EB8D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AddressBookStreetAddressesAppDelegate.m */;
+		name = "AddressBookStreetAddressesAppDelegate.m: 53";
+		rLen = 0;
+		rLoc = 2173;
+		rType = 0;
+		vrLen = 1840;
+		vrLoc = 269;
+	};
+	F07961AF0F55088E005EB8D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AddressBookStreetAddressesAppDelegate.m */;
+		name = "AddressBookStreetAddressesAppDelegate.m: 53";
+		rLen = 0;
+		rLoc = 2173;
+		rType = 0;
+		vrLen = 1840;
+		vrLoc = 269;
+	};
+	F07961B50F550977005EB8D1 /* ABPerson.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ABPerson.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABPerson.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {780, 2744}}";
+			sepNavSelRange = "{3828, 0}";
+			sepNavVisRange = "{1859, 2444}";
+		};
+	};
+	F07961C60F550BC3005EB8D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F07961B50F550977005EB8D1 /* ABPerson.h */;
+		name = "ABPerson.h: 83";
+		rLen = 0;
+		rLoc = 3828;
+		rType = 0;
+		vrLen = 2463;
+		vrLoc = 1859;
+	};
+	F07961D40F550BD3005EB8D1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F07961D50F550BD3005EB8D1 /* ABPerson.h */;
+		name = "ABPerson.h: 83";
+		rLen = 0;
+		rLoc = 3828;
+		rType = 0;
+		vrLen = 2463;
+		vrLoc = 1859;
+	};
+	F07961D50F550BD3005EB8D1 /* ABPerson.h */ = {
+		isa = PBXFileReference;
+		name = ABPerson.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/System/Library/Frameworks/AddressBook.framework/Headers/ABPerson.h;
+		sourceTree = "<absolute>";
+	};
+	F0D00D900F53A7B200BA9FB5 /* AddressBookStreetAddresses */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = AddressBookStreetAddresses;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F0D00D990F53A7C500BA9FB5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	F0D00D9A0F53A7C500BA9FB5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F0D00DC10F53DBCD00BA9FB5 /* AddressBookStreetAddressesAppDelegate.m:37 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* AddressBookStreetAddressesAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 37;
+		location = AddressBookStreetAddresses;
+		modificationTime = 257154005.091922;
+		state = 1;
+	};
+}
